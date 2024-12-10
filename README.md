@@ -1,0 +1,1 @@
+This repository demonstrates a common pitfall in Rust programming: modifying a vector through a raw pointer after the vector's capacity has changed.  The provided code exhibits undefined behavior because it violates Rust's memory safety guarantees.  The solution illustrates a safe approach using vector indexing or other safer methods.
